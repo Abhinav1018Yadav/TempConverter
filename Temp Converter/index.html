@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temp Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            
+            <h2>Temperature Converter </h2>
+            <span class="temp-icon">
+                <i class="fa-solid fa-temperature-half " ></i>
+            </span>
+            <div class="inputfield">
+                <form >
+                    <p>&#8451</p>
+                    <input type="number" name="Celcius" id="Celcius" placeholder="Celcius" oninput="celToFarK()">
+                    <p>&nbsp&#8490</p>
+                    <input type="number" name="Fahrenheit" id="Fahrenheit" placeholder="Fahrenheit" oninput="farToCelK()">
+                    <p>&#8457</p>
+                    <input type="number" name="Kelvin" id="Kelvin" placeholder="Kelvin" oninput="KToCelFar()">
+                    
+                    <input type="reset" id="clearbtn" value="Clear All">
+
+                </form>
+            </div>
+        </div>
+        <script src="script.js"></script>
+
+    </div>
+</body>
+</html>
